@@ -107,4 +107,30 @@
     margin: 0;
 
 }
+#dotsContainer{
+    width: 100%;
+    height: 10%;
+    padding-top: 20px;
+    text-align: center;
+    box-sizing: border-box;    
+}
+.dots{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.dots:first-child{
+    margin: 0;
+}
+.dots:hover{
+    background-color: #717171;
+}
+.dots:active{
+    background-color: #717171;
+}
 
